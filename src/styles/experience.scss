@@ -1,0 +1,95 @@
+
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    gap: 40px 60px;
+}
+
+.container .drop{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    box-shadow: inset 20px 20px 20px #41ade3cf, 25px 35px 20px #4b9fc997, 25px 30px 30px #54baed7a,
+    inset 20px 20px 25px #54baedae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.container .drop:nth-child(1){
+    border-radius: 23% 77% 39% 61% / 50% 43% 57% 50%  ;
+}
+.container .drop:nth-child(2){
+    border-radius: 64% 36% 56% 44% / 34% 56% 44% 66%  ;
+}
+.container .drop:nth-child(3){
+    border-radius: 23% 77% 69% 31% / 40% 60% 40% 60%  ;
+}
+
+.container .drop:hover{
+    border-radius: 50%;
+}
+
+.container .drop .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 15px;
+    
+}
+.container .drop .content h2{
+    position: relative;
+    width: 120px;
+    height: 100px;
+    background: #eff0f4d0;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 2px #41ade3cf, 5px 3px 2px #4b9fc997, 2px 3px 3px #54baed7a,
+    inset 2px 2px 5px #54baedae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    color: black;
+
+}
+
+.container .drop .content a{
+    position: relative;
+    background: #000000;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 500;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.25);
+    opacity: 0.75;
+    transition: 0.5s;
+
+}
+
+.container .drop .content a:hover{
+    opacity: 1;
+}
+.container .drop .content a::before{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 65%;
+    height: 5px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.5);
+
+}
