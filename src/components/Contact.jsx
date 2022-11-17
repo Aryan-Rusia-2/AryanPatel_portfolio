@@ -21,12 +21,12 @@ const Contact = () => {
               <i></i>
             </div>
             <div className="inputBox">
-              <input type="text" name="email" />
+              <input type="text" name="email" required='required' />
               <span>Your email id</span>
               <i></i>
             </div>
             <div className="inputBox">
-              <input type="text" name="message" />
+              <input type="text" name="message" required='required'/>
               <span>Your message</span>
               <i></i>
             </div>
