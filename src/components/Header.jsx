@@ -10,11 +10,10 @@ const Header = () => {
 
 const NavContent = () => (
     <>
-    <h2>Aryan..</h2>
+    <h2 className='font-extralight'>Aryan</h2>
     <div>
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#education">Education</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>

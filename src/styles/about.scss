@@ -1,0 +1,50 @@
+.home2 {
+
+    background: $color1;
+    width: 100%;
+    height: 100vh;
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    >img {
+        width: 30%;
+        animation: imgUp 0.7s linear infinite alternate;
+    }
+
+    >div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+        height: 100vh;
+
+        p {
+            // color: $firs;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            font: 200 1.2rem $text2;
+            text-align: justify;
+            padding-bottom: 4px;
+        }
+
+        h1 {
+            // color: $first;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            font: 500 2.5rem $text2;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+
+@keyframes imgUp {
+    to {
+        transform: translateY(-10px);
+    }
+}

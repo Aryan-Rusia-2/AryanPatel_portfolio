@@ -8,18 +8,8 @@ const Footer = () => {
             <span>Get connected with me on social networks :</span>
         </div>
         <div class="flex justify-center space-x-14 mx-auto">
-            <a href="https://www.facebook.com/jgrchambacba/" target="_blank"
+            <a href="https://twitter.com/aryanpat18" target="_blank"
                 rel="noreferrer" class=" text-gray-600 hover:scale-125 duration-300">
-                <svg a ria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
-                    class="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 320 512">
-                    <path fill="currentColor"
-                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
-                    </path>
-                </svg>
-            </a>
-            <a href="https://twitter.com/Joy2042002" target="_blank"
-                rel="noreferrer" class="mr-6 text-gray-600 hover:scale-125 duration-300">
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
                     class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path fill="currentColor"
@@ -28,7 +18,7 @@ const Footer = () => {
                 </svg>
             </a>
 
-            <a href="https://www.instagram.com/harshit_joy_/" target="_blank"
+            <a href="https://www.instagram.com/aryanpate_18/" target="_blank"
                 rel="noreferrer" class="mr-6 text-gray-600 hover:scale-125 duration-300">
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
                     class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -37,7 +27,7 @@ const Footer = () => {
                     </path>
                 </svg>
             </a>
-            <a href="https://www.linkedin.com/in/harshit-gupta-4663831bb/" target="_blank"
+            <a href="https://www.linkedin.com/in/aryan-patel-5a024222a/" target="_blank"
                 rel="noreferrer" class="mr-6 text-gray-600 hover:scale-125 duration-300">
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
                     class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +37,7 @@ const Footer = () => {
                     </path>
                 </svg>
             </a>
-            <a href="https://github.com/harshitgupta2004" target="_blank"
+            <a href="https://github.com/avpatel1" target="_blank"
                 rel="noreferrer" class="text-gray-600 hover:scale-125 duration-300">
                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
                     class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
@@ -61,7 +51,7 @@ const Footer = () => {
 
     <div class="text-center p-6 bg-[#131518]">
         <span>© 2022 Copyright : </span>
-        <button class="text-white font-semibold" > Harshit Gupta</button>
+        <button class="text-white font-semibold" > Aryan Patel</button>
     </div>
 </footer>
 

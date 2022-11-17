@@ -23,8 +23,8 @@ const Experience = () => {
                     <h3 className='font-semibold'>Crown Cab, North Battleford, SK</h3>
                     <p>Managed a company for six months, from dispatcher and driver schedule to system and car maintenance</p></div></div>
                 <div className="drop"><div className="content">
-                    <h2>Developer</h2>
-                    <h3 className='font-semibold'>Software developer</h3>
+                    <h2>Process Analyst</h2>
+                    <h3 className='font-semibold'>Lorem, ipsum dolor.</h3>
                     <p>Lorem ipsuetur adipisicing elit. Itaque provident corrupti, doloremque distinctio nesciunt aperiam. Ipsa architecto molestias corrupti tempora.</p></div></div>
             </div>
         </div>

@@ -12,25 +12,26 @@ const Contact = () => {
       <div className='outer'>
 
         <div className="box">
-          <div className="form">
+          <form action='https://getform.io/f/6ff13a48-b2f2-4584-aff9-f384c2ca0cca' method='POST' className="form">
+
             <h2>Contact Me 😃</h2>
             <div className="inputBox">
-              <input type="text" required='required' />
+              <input type="text" name="Name" required='required' />
               <span>Your Name</span>
               <i></i>
             </div>
             <div className="inputBox">
-              <input type="text" required='required' />
+              <input type="text" name="email" />
               <span>Your email id</span>
               <i></i>
             </div>
             <div className="inputBox">
-              <input type="text" required='required' />
+              <input type="text" name="message" />
               <span>Your message</span>
               <i></i>
             </div>
             <input type="submit" value='Submit' />
-          </div>
+          </form>
         </div>
       </div>
     </>
